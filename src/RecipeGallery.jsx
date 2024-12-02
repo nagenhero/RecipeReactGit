@@ -17,7 +17,7 @@ export const RecipeGallery = () => {
       {
         name: "Bolognese",
         title: "Pasta",
-        image: aa,
+        image: "src/assets/bolo.jpg",
         desc: "The dough requires just three ingredients and comes together quickl",
         ingredients: ["cheese", "onion", "garlic", "tomatoo"],
       },
@@ -85,24 +85,35 @@ export const RecipeGallery = () => {
       marginBottom:"55px",
     }
  const [showProfile, setShowProfile] = useState(false);
+
+ const TESTVARIABLE = "TESTING";
  const [selectedProfile, setSelectedProfile] = useState({
    name: "",
    title: "",
    image: "",
  });
 
+ console.log(TESTVARIABLE);
+ 
+
   return (
     <div>
       <h1 style={head}>View our Recipes</h1>
       <div style={wrapper}>
+        {TESTVARIABLE}
+
         {recipe.map(
-          (item) => (
-            <RecipeCard
-              item={item}
-              setShowProfile={setShowProfile}
-              showProfile={showProfile}
-              updateProfile={setSelectedProfile}
-            />
+          (d) => (
+
+            <div>
+              <RecipeCard
+                item={d}
+                testAttribute="TESTING"
+                setShowProfile={setShowProfile}
+                showProfile={showProfile}
+                updateProfile={setSelectedProfile}
+              />
+              </div>
           )
           // console.log("200",{item})
         )}

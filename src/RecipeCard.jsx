@@ -1,6 +1,6 @@
 import React from "react";
 
-export const RecipeCard = ({item,setShowProfile, showProfile,updateProfile})  => {
+export const RecipeCard = ({item,setShowProfile, showProfile,updateProfile, testAttribute})  => {
     const data=item;
     // console.log("200",data);
     
@@ -44,6 +44,10 @@ export const RecipeCard = ({item,setShowProfile, showProfile,updateProfile})  =>
     const OpenProfileViewer=()=>
     {
       console.log("300",item);
+      
+
+      const testObject = {item};
+      console.log("300", testObject);
       
         setShowProfile(true);
         updateProfile(item);
