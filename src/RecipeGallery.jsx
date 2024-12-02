@@ -86,21 +86,21 @@ export const RecipeGallery = () => {
     }
  const [showProfile, setShowProfile] = useState(false);
 
-//  const TESTVARIABLE = "TESTING";
+
  const [selectedProfile, setSelectedProfile] = useState({
    name: "",
    title: "",
    image: "",
  });
 
- console.log(TESTVARIABLE);
+
  
 
   return (
     <div>
       <h1 style={head}>View our Recipes</h1>
       <div style={wrapper}>
-        {TESTVARIABLE}
+      
 
         {recipe.map(
           (d) => (
