@@ -17,7 +17,7 @@ export const RecipeGallery = () => {
       {
         name: "Bolognese",
         title: "Pasta",
-        image: "src/assets/bolo.jpg",
+        image: aa,
         desc: "The dough requires just three ingredients and comes together quickl",
         ingredients: ["cheese", "onion", "garlic", "tomatoo"],
       },
