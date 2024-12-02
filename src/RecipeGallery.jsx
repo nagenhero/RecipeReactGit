@@ -86,7 +86,7 @@ export const RecipeGallery = () => {
     }
  const [showProfile, setShowProfile] = useState(false);
 
- const TESTVARIABLE = "TESTING";
+//  const TESTVARIABLE = "TESTING";
  const [selectedProfile, setSelectedProfile] = useState({
    name: "",
    title: "",
