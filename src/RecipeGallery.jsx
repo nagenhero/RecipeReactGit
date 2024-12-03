@@ -78,6 +78,7 @@ export const RecipeGallery = () => {
       display:"flex",
       gap:"15px",
       flexWrap:"wrap",
+      justifyContent:"center",
     };
     const head={
       textAlign:"center",
