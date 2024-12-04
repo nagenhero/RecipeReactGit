@@ -7,10 +7,10 @@ export const RecipeCard = ({item,setShowProfile, showProfile,updateProfile, test
     const cardStyle = {
       width: "250px",
       height: "300px",
-      backgroundColor: "grey",
+      backgroundColor: "white",
     
       backdropFilter:"blur(4px)",
-      color: "black",
+      fontColor: "black",
       marginTop: "10px",
       padding: "20px",
       borderRadius: "20px",
@@ -18,7 +18,7 @@ export const RecipeCard = ({item,setShowProfile, showProfile,updateProfile, test
     //   flexDirection: "column",
       backdropFilter: "blur(14px)",
       marginTop: "4px",
-      color:"white",
+      
       fontSize:"20px"
     };
     const imgStyle={

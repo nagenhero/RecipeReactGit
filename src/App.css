@@ -13,6 +13,26 @@
 
     
 
+
+
+}
+.gallery
+{
+    background-color: rgba(0, 0, 0, 0.713);
+}
+.inputForm >input
+{
+    width:330px;
+    padding:10px;
+    border-radius: 20px;
+
+}
+.inputForm> button
+{
+    padding:10px;
+
+    border-radius: 14px;
+    background-color: aquamarine;
 }
 .profileViewerStyle1 >img
 {
